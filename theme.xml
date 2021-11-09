@@ -64,7 +64,7 @@ version:        1.0
         <selectorColor>00000000</selectorColor>
         <selectedColor>2883ff</selectedColor>
         <primaryColor>ffffff</primaryColor>
-        <secondaryColor>2883ff</secondaryColor>
+        <secondaryColor>ff00f0</secondaryColor>
         <fontPath>./_inc/fonts/font_main.otf</fontPath>
         <fontSize>0.0415</fontSize>
         <forceUppercase>1</forceUppercase>
