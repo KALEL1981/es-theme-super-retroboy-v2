@@ -161,7 +161,7 @@ email:          SuperRetroCity@gmail.com
       </text>
       <datetime name="md_releasedate">
         <origin>0.5 0.5</origin>
-        <pos>.9 .32</pos>
+        <pos>.89 .32</pos>
         <size>0.18 0.08</size>
         <color>ffffff</color>
         <zIndex>5</zIndex>         
@@ -175,7 +175,7 @@ email:          SuperRetroCity@gmail.com
       </text>
       <text name="md_publisher">
         <origin>0.5 0.5</origin>
-        <pos>.9 .37</pos>
+        <pos>.89 .37</pos>
         <size>0.18 0.08</size>
         <color>ffffff</color>
         <zIndex>5</zIndex>         
@@ -189,7 +189,7 @@ email:          SuperRetroCity@gmail.com
       </text>
       <text name="md_developer">
         <origin>0.5 0.5</origin>
-        <pos>.9 .42</pos>
+        <pos>.89 .42</pos>
         <size>0.18 0.08</size>
         <color>ffffff</color>
         <zIndex>5</zIndex>
@@ -203,7 +203,7 @@ email:          SuperRetroCity@gmail.com
       </text>   
       <rating name="md_rating"> 
         <origin>0.5 0.5</origin>       
-        <pos>.84 .47</pos>
+        <pos>.845 .47</pos>
         <size>0.04 0.04</size>
         <zIndex>5</zIndex>
         <filledPath>./_inc/images/full.png</filledPath>
