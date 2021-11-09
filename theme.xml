@@ -1,7 +1,8 @@
 <!--
 theme name:     Super Retroboy V2 Theme
+version:        1.2
 creator:		Travis Wilson (KALEL1981 / Super Retro City)
-version:        1.0
+email:          SuperRetroCity@gmail.com
 -->
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -138,7 +139,7 @@ version:        1.0
         <origin>0.5 0.5</origin>
         <pos>0.75 0.73</pos>
         <maxSize>0.45 0.45</maxSize>
-        <delay>2</delay>
+        <delay>0</delay>
         <zIndex>2</zIndex>         
         <showSnapshotNoVideo>true</showSnapshotNoVideo>
         <showSnapshotDelay>true</showSnapshotDelay>
@@ -146,49 +147,68 @@ version:        1.0
    </view>
    
    <view name="detailed,video">
-      <rating name="md_rating">
-        <origin>0.5 0.5</origin>
-        <zIndex>5</zIndex>       
-        <pos>1 1</pos>
-        <size>0.04 0.04</size>
-        <zIndex>2</zIndex>
-        <filledPath>./_inc/images/star_full.png</filledPath>
-        <unfilledPath>./_inc/images/star_hollow.png</unfilledPath>
-      </rating>
-      <text name="md_lbl_developer">
-        <origin>0.5 0.5</origin>
-        <pos>1 1</pos>
-        <size>0.6 0.6</size>
-        <color>ffffff</color>
-        <zIndex>2</zIndex> 
-      </text>
-      <text name="md_developer">
-        <origin>0.5 0.5</origin>
-        <pos>1 1</pos>
-        <size>0.6 0.6</size>
-        <color>ffffff</color>
-        <zIndex>2</zIndex>
-      </text>
+      <text name="md_lbl_rating, md_lbl_developer, md_developer, md_lbl_releasedate, md_releasedate, md_lbl_publisher, md_publisher">
+        <forceUppercase>1</forceUppercase>
+        <fontPath>./_inc/fonts/font_main.otf</fontPath>
+        <fontSize>0.04</fontSize>
+      </text>  
       <text name="md_lbl_releasedate">
         <origin>0.5 0.5</origin>
-        <pos>1 1</pos>
-        <size>0.6 0.6</size>
-        <color>ffffff</color>
-        <zIndex>2</zIndex>                  
+        <color>2883ff</color>
+        <pos>.726 .32</pos>
+        <size>0.4 0.1</size>
+        <zIndex>5</zIndex>                  
       </text>
       <datetime name="md_releasedate">
         <origin>0.5 0.5</origin>
-        <pos>1 1</pos>
-        <size>0.6 0.6</size>
+        <pos>.9 .32</pos>
+        <size>0.18 0.08</size>
         <color>ffffff</color>
-        <zIndex>2</zIndex>         
+        <zIndex>5</zIndex>         
       </datetime>
-      <image name="md_marquee">
-        <pos>1 1</pos>
+      <text name="md_lbl_publisher">
         <origin>0.5 0.5</origin>
-        <maxSize>0.1 0.1</maxSize>
-        <zIndex>2</zIndex>         
-      </image>
+        <color>2883ff</color>
+        <pos>.726 .37</pos>
+        <size>0.4 0.1</size>
+        <zIndex>5</zIndex>                  
+      </text>
+      <text name="md_publisher">
+        <origin>0.5 0.5</origin>
+        <pos>.9 .37</pos>
+        <size>0.18 0.08</size>
+        <color>ffffff</color>
+        <zIndex>5</zIndex>         
+      </text>
+      <text name="md_lbl_developer">
+        <origin>0.5 0.5</origin>
+        <pos>.726 .42</pos>
+        <size>0.4 0.1</size>
+        <color>2883ff</color>
+        <zIndex>5</zIndex> 
+      </text>
+      <text name="md_developer">
+        <origin>0.5 0.5</origin>
+        <pos>.9 .42</pos>
+        <size>0.18 0.08</size>
+        <color>ffffff</color>
+        <zIndex>5</zIndex>
+      </text>
+      <text name="md_lbl_rating">
+        <origin>0.5 0.5</origin> 
+        <color>2883ff</color>      
+        <pos>.726 .47</pos>
+        <size>0.4 0.1</size>
+        <zIndex>5</zIndex>
+      </text>   
+      <rating name="md_rating"> 
+        <origin>0.5 0.5</origin>       
+        <pos>.84 .47</pos>
+        <size>0.04 0.04</size>
+        <zIndex>5</zIndex>
+        <filledPath>./_inc/images/full.png</filledPath>
+        <unfilledPath>./_inc/images/hollow.png</unfilledPath>
+      </rating>
    </view>
    
 </theme>
