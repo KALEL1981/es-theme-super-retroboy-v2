@@ -139,7 +139,7 @@ email:          SuperRetroCity@gmail.com
         <origin>0.5 0.5</origin>
         <pos>0.75 0.73</pos>
         <maxSize>0.45 0.45</maxSize>
-        <delay>2</delay>
+        <delay>0</delay>
         <zIndex>2</zIndex>         
         <showSnapshotNoVideo>true</showSnapshotNoVideo>
         <showSnapshotDelay>true</showSnapshotDelay>
@@ -154,29 +154,29 @@ email:          SuperRetroCity@gmail.com
       </text>  
       <text name="md_lbl_releasedate">
         <origin>0.5 0.5</origin>
+        <color>2883ff</color>
         <pos>.726 .32</pos>
         <size>0.4 0.1</size>
-        <color>2883ff</color>
         <zIndex>5</zIndex>                  
       </text>
       <datetime name="md_releasedate">
         <origin>0.5 0.5</origin>
-        <pos>.89 .32</pos>
-        <size>0.18 0.08</size>
+        <pos>.87 .32</pos>
+        <size>0.24 0.08</size>
         <color>ffffff</color>
         <zIndex>5</zIndex>         
       </datetime>
       <text name="md_lbl_publisher">
         <origin>0.5 0.5</origin>
+        <color>2883ff</color>
         <pos>.726 .37</pos>
         <size>0.4 0.1</size>
-        <color>2883ff</color>
         <zIndex>5</zIndex>                  
       </text>
       <text name="md_publisher">
         <origin>0.5 0.5</origin>
-        <pos>.89 .37</pos>
-        <size>0.18 0.08</size>
+        <pos>.87 .37</pos>
+        <size>0.24 0.08</size>
         <color>ffffff</color>
         <zIndex>5</zIndex>         
       </text>
@@ -189,21 +189,21 @@ email:          SuperRetroCity@gmail.com
       </text>
       <text name="md_developer">
         <origin>0.5 0.5</origin>
-        <pos>.89 .42</pos>
-        <size>0.18 0.08</size>
+        <pos>.87 .42</pos>
+        <size>0.24 0.08</size>
         <color>ffffff</color>
         <zIndex>5</zIndex>
       </text>
       <text name="md_lbl_rating">
-        <origin>0.5 0.5</origin>
+        <origin>0.5 0.5</origin> 
+        <color>2883ff</color>      
         <pos>.726 .47</pos>
         <size>0.4 0.1</size>
-        <color>2883ff</color>
         <zIndex>5</zIndex>
       </text>   
       <rating name="md_rating"> 
         <origin>0.5 0.5</origin>       
-        <pos>.845 .47</pos>
+        <pos>.77 .47</pos>
         <size>0.04 0.04</size>
         <zIndex>5</zIndex>
         <filledPath>./_inc/images/full.png</filledPath>
