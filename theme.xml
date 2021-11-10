@@ -154,9 +154,9 @@ email:          SuperRetroCity@gmail.com
       </text>  
       <text name="md_lbl_releasedate">
         <origin>0.5 0.5</origin>
-        <color>2883ff</color>
         <pos>.726 .32</pos>
         <size>0.4 0.1</size>
+        <color>2883ff</color>
         <zIndex>5</zIndex>                  
       </text>
       <datetime name="md_releasedate">
@@ -168,9 +168,9 @@ email:          SuperRetroCity@gmail.com
       </datetime>
       <text name="md_lbl_publisher">
         <origin>0.5 0.5</origin>
-        <color>2883ff</color>
         <pos>.726 .37</pos>
         <size>0.4 0.1</size>
+        <color>2883ff</color>
         <zIndex>5</zIndex>                  
       </text>
       <text name="md_publisher">
@@ -195,10 +195,10 @@ email:          SuperRetroCity@gmail.com
         <zIndex>5</zIndex>
       </text>
       <text name="md_lbl_rating">
-        <origin>0.5 0.5</origin> 
-        <color>2883ff</color>      
+        <origin>0.5 0.5</origin>
         <pos>.726 .47</pos>
         <size>0.4 0.1</size>
+        <color>2883ff</color>
         <zIndex>5</zIndex>
       </text>   
       <rating name="md_rating"> 
