@@ -209,6 +209,12 @@ email:          SuperRetroCity@gmail.com
         <filledPath>./_inc/images/full.png</filledPath>
         <unfilledPath>./_inc/images/hollow.png</unfilledPath>
       </rating>
+      <image name="md_marquee">
+        <pos>1 1</pos>
+        <origin>0.5 0.5</origin>
+        <maxSize>0.1 0.1</maxSize>
+        <zIndex>1</zIndex>         
+      </image>
    </view>
    
 </theme>
